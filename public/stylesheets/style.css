@@ -6,3 +6,24 @@ body {
 a {
   color: #00B7FF;
 }
+
+#film {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-details {
+  display: flex;
+  text-align: justify;
+}
+
+.img-details {
+  padding: 15px;
+}
